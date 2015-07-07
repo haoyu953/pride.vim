@@ -148,3 +148,6 @@ hi li rubyRegexp Blue
 hi li rubyRegexpSpecial Purple 
 hi li rubyRegexpDelimiter Red
 hi li rubyStringDelimiter rubyString
+
+hi li netrwComma Blue
+hi li netrwClassify netrwDir
