@@ -120,11 +120,9 @@ hi li Noise Grey
 
 hi li Statement Red
 hi li Error Red
-hi li Todo Red
 hi li Ignore Red
 
 hi li String Orange
-hi li PreProc Orange
 
 hi li Identifier Yellow
 hi li Type Yellow
@@ -133,6 +131,7 @@ hi li Special Yellow
 hi li Character Green
 hi li Constant Green
 hi li Directory Green
+hi li PreProc Green
 
 hi li Conditional Blue
 hi li Repeat Blue
@@ -141,4 +140,11 @@ hi li Folded Blue
 hi li Boolean Purple
 hi li Integer Purple
 hi li Number Purple
+hi li Todo Purple
 
+" LANGUAGE SPECIFIC
+
+hi li rubyRegexp Blue
+hi li rubyRegexpSpecial Purple 
+hi li rubyRegexpDelimiter Red
+hi li rubyStringDelimiter rubyString
