@@ -126,10 +126,10 @@ hi li Ignore Red
 hi li String Orange
 hi li PreProc Orange
 
+hi li Identifier Yellow
 hi li Type Yellow
 hi li Special Yellow
 
-hi li Identifier Green
 hi li Character Green
 hi li Constant Green
 hi li Directory Green
