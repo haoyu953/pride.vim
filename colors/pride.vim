@@ -124,7 +124,6 @@ hi li Ignore Red
 
 hi li String Orange
 
-hi li Identifier Yellow
 hi li Type Yellow
 hi li Special Yellow
 
@@ -132,6 +131,7 @@ hi li Character Green
 hi li Constant Green
 hi li Directory Green
 hi li PreProc Green
+hi li Identifier Green
 
 hi li Conditional Blue
 hi li Repeat Blue
