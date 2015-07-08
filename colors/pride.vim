@@ -151,3 +151,6 @@ hi li rubyStringDelimiter rubyString
 
 hi li netrwComma Blue
 hi li netrwClassify netrwDir
+
+hi li gitcommitFile Orange
+hi li gitcommitBranch Blue
