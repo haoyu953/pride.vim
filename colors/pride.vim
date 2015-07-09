@@ -76,6 +76,7 @@ hi Normal ctermbg=234 ctermfg=250
 hi Subtle ctermfg=236
 hi Panel ctermbg=235 ctermfg=237
 hi Highlight ctermbg=235
+hi HighlightSubtle ctermbg=235 ctermfg=236
 hi Invisible ctermfg=234
 hi Underlined cterm=underline
 
@@ -103,8 +104,9 @@ hi li TablineFill Panel
 hi li TabLineSel Panel
 
 hi li CursorLine Highlight
-hi li CursorLineNr Highlight
 hi li Visual Highlight
+
+hi li CursorLineNr HighlightSubtle
 
 hi li Search RedInvert
 hi li IncSearch RedInvert
