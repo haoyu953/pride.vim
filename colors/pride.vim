@@ -74,7 +74,7 @@ hi clear Todo
 
 hi Normal ctermbg=234 ctermfg=250
 hi Subtle ctermfg=236
-hi Panel ctermbg=235 ctermfg=237
+hi Panel ctermbg=235 ctermfg=241
 hi Highlight ctermbg=235
 hi HighlightSubtle ctermbg=235 ctermfg=236
 hi Invisible ctermfg=234
@@ -111,6 +111,7 @@ hi li CursorLineNr HighlightSubtle
 hi li Search RedInvert
 hi li IncSearch RedInvert
 hi li MatchParen RedInvert
+hi li WildMenu RedInvert
 
 " general syntax
 """""""""""""""""
