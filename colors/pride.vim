@@ -99,6 +99,8 @@ hi li NonText Invisible
 
 hi li CursorLine Highlight
 
+hi li Visual Highlight
+
 hi li LineNr Subtle
 hi li CursorLineNr HighlightSubtle
 
@@ -109,11 +111,14 @@ hi li Tabline Panel
 hi li TablineFill Panel
 hi li TabLineSel PanelHighlight
 
-hi li Visual Highlight
+hi li Pmenu Panel
+hi li PmenuSel RedInvert
 
 hi li Search RedInvert
 hi li IncSearch RedInvert
+
 hi li MatchParen RedInvert
+
 hi li WildMenu RedInvert
 
 " general syntax
