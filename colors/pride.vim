@@ -72,8 +72,10 @@ hi clear Todo
 " definitions
 """"""""""""""
 
-hi Base ctermbg=234 ctermfg=250
-hi Accent ctermbg=235
+hi Normal ctermbg=234 ctermfg=250
+hi Subtle ctermfg=236
+hi Panel ctermbg=235 ctermfg=237
+hi Highlight ctermbg=235
 hi Invisible ctermfg=234
 hi Underlined cterm=underline
 
@@ -91,18 +93,18 @@ hi Purple ctermfg=176
 " interface
 """"""""""""
 
-hi li Normal Base
-
 hi li NonText Invisible
 
-hi li StatusLine Accent
-hi li StatusLineNC Accent
-hi li TablineFill Accent
-hi li CursorLine Accent
-hi li CursorLineNr Accent
-hi li Visual Accent
-hi li TabLineSel Accent
-hi li StatusLine Accent
+hi li LineNr Subtle
+
+hi li StatusLine Panel
+hi li StatusLineNC Panel
+hi li TablineFill Panel
+hi li TabLineSel Panel
+
+hi li CursorLine Highlight
+hi li CursorLineNr Highlight
+hi li Visual Highlight
 
 hi li Search RedInvert
 hi li IncSearch RedInvert
