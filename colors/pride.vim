@@ -3,10 +3,10 @@
 " author: github.com/lyxell
 " url: github.com/lyxell/pride.vim
 
-" RESET
+" general
+""""""""""
 
 " reset to vim default stylesheet defined in src/syntax.c
-
 set background=light
 hi clear
 if exists("syntax_on")
@@ -15,7 +15,6 @@ endif
 let g:colors_name = "pride"
 
 " remove styles defined by src/syntax.c
-
 hi clear SpecialKey
 hi clear NonText
 hi clear Directory
@@ -70,50 +69,47 @@ hi clear Ignore
 hi clear Error
 hi clear Todo
 
-" COLOR DEFINITIONS
+" definitions
+""""""""""""""
+
+hi Base ctermbg=234 ctermfg=250
+hi Accent ctermbg=235
+hi Invisible ctermfg=234
+hi Underlined cterm=underline
 
 hi White ctermfg=255
 hi Grey ctermfg=240
+
 hi Red ctermfg=203
+hi RedInvert ctermbg=203 ctermfg=234
 hi Orange ctermfg=209
 hi Yellow ctermfg=221
 hi Green ctermfg=114
 hi Blue ctermfg=74
 hi Purple ctermfg=176
 
-" USER INTERFACE
+" interface
+""""""""""""
 
-" use a dark grey base
-hi Normal ctermbg=234 ctermfg=250
+hi li Normal Base
 
-" make status and tab line lighter than the background
-hi StatusLine ctermbg=235
-hi StatusLineNC ctermbg=235
-hi TablineFill ctermbg=235
+hi li NonText Invisible
 
-" make the cursor line and visual selection one shade brighter than the background
-hi CursorLine ctermbg=235
-hi CursorLineNr ctermbg=235
-hi Visual ctermbg=235
+hi li StatusLine Accent
+hi li StatusLineNC Accent
+hi li TablineFill Accent
+hi li CursorLine Accent
+hi li CursorLineNr Accent
+hi li Visual Accent
+hi li TabLineSel Accent
+hi li StatusLine Accent
 
-" hide tildes indicating empty lines
-hi NonText ctermfg=bg
+hi li Search RedInvert
+hi li IncSearch RedInvert
+hi li MatchParen RedInvert
 
-" make line numbers darker than the base
-hi LineNr ctermfg=237
-hi CursorLineNr ctermfg=239
-
-" make tab line and status line a bit brighter than line numbers
-hi TabLineSel ctermfg=243
-hi StatusLine ctermfg=243
-
-" invert matching parantheses
-hi MatchParen ctermbg=242
-
-" allow underlines
-hi Underlined cterm=underline
-
-" SYNTAX HIGHLIGHTING
+" general syntax
+"""""""""""""""""
 
 hi li Comment Grey
 hi li Noise Grey
@@ -142,15 +138,16 @@ hi li Integer Purple
 hi li Number Purple
 hi li Todo Purple
 
-" LANGUAGE SPECIFIC
+" dialect specific syntax
+""""""""""""""""""""""""""
 
 hi li rubyRegexp Blue
 hi li rubyRegexpSpecial Purple 
 hi li rubyRegexpDelimiter Red
-hi li rubyStringDelimiter rubyString
+hi li rubyStringDelimiter Orange
 
 hi li netrwComma Blue
-hi li netrwClassify netrwDir
+hi li netrwClassify Green
 
 hi li gitcommitFile Orange
 hi li gitcommitBranch Blue
