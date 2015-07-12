@@ -84,8 +84,8 @@ hi Underlined cterm=underline
 hi White ctermfg=255
 hi Grey ctermfg=240
 
-hi Red ctermfg=203
-hi RedInvert ctermbg=203 ctermfg=234
+hi Red ctermfg=204
+hi RedInvert ctermbg=204 ctermfg=234
 hi Orange ctermfg=209
 hi Yellow ctermfg=221
 hi Green ctermfg=114
